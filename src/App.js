@@ -8,7 +8,7 @@ import QRCode from 'react-qr-code';
 
 function App() {
   const [data,setData] = useState()
-  const [add, setAdd] = useState(info)
+  const [currentDate, setCurrentDate] = useState(new Date())
   // const [res,setRes]=useState()
   let students = info.find(function(val)  
     {
@@ -60,7 +60,7 @@ console.log(newstudents)
    {students && (
      <tr>
     <td>{students.name}</td>
-    <td>Present</td>
+    <td>{currentDate.toDateString()}</td>
     </tr>
    )}
    
