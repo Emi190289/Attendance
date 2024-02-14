@@ -1,5 +1,6 @@
 .QR_Reader{
     text-align: center;
+    
     /* padding:4rem */
 }
 .QR_Reader >section {
@@ -18,18 +19,7 @@
     margin-top: 4rem;
 }
 
-.scanAgain{
-    text-align: center;
-}
 
-table{
-    text-align: center;
-    border: 1px solid black;
-}
-
-tr,td{
-    border: 1px solid black;
-}
 
 
   
